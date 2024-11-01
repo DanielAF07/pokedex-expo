@@ -28,6 +28,9 @@ To explore the app:
    - An [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
    - [Expo Go](https://expo.dev/go) for viewing on a physical device
 
+## Screenshots
+<img src="https://github.com/user-attachments/assets/36581d7a-cf21-4d31-81c9-801bdcf7071b" width="400" alt="Screenshot of Pokedex App" />
+
 ## Learn More
 
 For details on how the app was built, explore:
