@@ -1,9 +1,15 @@
-import { Stack } from "expo-router";
+import StackNavigator from "../presentation/navigation/StackNavigator";
+import { ThemeContextProvider } from "../presentation/context/ThemeContext";
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
+const queryClient = new QueryClient()
 
 export default function RootLayout() {
   return (
-    <Stack>
-      <Stack.Screen name="index" />
-    </Stack>
+    <QueryClientProvider client={queryClient}>
+      <ThemeContextProvider>
+          <StackNavigator />
+      </ThemeContextProvider>
+    </QueryClientProvider>
   );
 }

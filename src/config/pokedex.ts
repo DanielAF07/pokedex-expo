@@ -1,0 +1,1 @@
+export const maxPokedexId = 1025
